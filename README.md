@@ -10,3 +10,9 @@ simple python code interns practice: ATM
    ```
 5. open with your preferred code editor
 
+# push repository from the command line
+```bash
+git remote add origin https://github.com/Oliver-CodeRepo/python-atm.git
+git branch -M main
+git push -u origin main
+```
