@@ -10,9 +10,19 @@ simple python code interns practice: ATM
    ```
 5. open with your preferred code editor
 
-# push repository from the command line
+# push your branch from the command line 
 ```bash
+git init
+git add .
+git commit -m "your commit message here"
 git remote add origin https://github.com/Oliver-CodeRepo/python-atm.git
-git branch -M main
-git push -u origin main
+git branch nameOfYourBranch
+git push -u origin nameOfYourBranch
+```
+
+# Push code to your branch
+```bash 
+git add .
+git commit -m "task you've completed"
+git push
 ```
